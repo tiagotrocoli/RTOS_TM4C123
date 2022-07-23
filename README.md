@@ -3,7 +3,7 @@
 As a project from UTAustinX UT.RTBN.12.01x, I implemented a Real-Time Operating System (RTOS) from scratch for TM4C123xx specifically devised to operate several sensors of a hardware module (BOOSTXL-EDUMKII) concurrently. The features of that RTOS include a priority scheduler, semaphores, thread sleep function, and edge-triggered interrupts to signal semaphores. The user code inputs from the microphone, accelerometer, light sensor, temperature sensor, and switches. It performs some measurements and calculations of steps, sound intensity, light intensity, and temperature. It outputs data to the LCD and generates simple beeping sounds. There are eight tasks in total:
 
 <p align="center">
-<img src="Lab3_1dataFlow.jpg" height="60%" width="60%">  
+<img src="Lab3_1dataFlow.jpg" height="40%" width="40%">  
 </p>
 
 - Task0: event thread samples microphone input at 1000 Hz
